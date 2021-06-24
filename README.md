@@ -12,7 +12,7 @@ The C# code is responsible for:
 - Constructing a `deftemplate` for the average skill score in order to classify if a player is suitable for a certain play style.
 - Read the `UserSystem.clp` which represents the actual CLIPS system that does the data processing.
 - Combine the constructed CLIPS code with the `UserSystem.clp` file to create `System.clp`.
-- Creating a batch file `Clips.bat` that does the `(Load)`, `(Reset)` and `(Run)` then `(Exit)` commands via CLIPS.
+- Creating a batch file `Clips.bat` that does the `(Load)` on `System.clp`, `(Reset)` and `(Run)` then `(Exit)` commands via CLIPS.
 - Spawning a process and passing the `Clips.bat` file to be executed by `CLIPSDOS.exe` which is the command line version of clips.
 - Capturing the output from `CLIPSDOS.exe`, parsing it, then displaying it in a `ListView`.
 
