@@ -17,7 +17,7 @@ The C# code is responsible for:
 - Capturing the output from `CLIPSDOS.exe`, parsing it, then displaying it in a `ListView`.
 
 ## The CLIPS Part
-The CLIPS code contains a set of rules and functions which does the following:
+The CLIPS code contains a set of rules and functions that does the following:
 - Process all the asserted player data by retracting all the players that don't fit the user parameters.
 - Calculate the average score of each player skill for the remaining players after the initial processing done by the rules.
 - Further process player data by passing them to `FilterByPlayStyle` function that uses the average scores of each skill to determine if a player is suitable for a certain play style. 
